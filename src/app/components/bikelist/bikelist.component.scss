@@ -1,0 +1,23 @@
+.bikelist-col {    
+    height: 50vh;
+}
+
+.bikelist-desc {
+    color: #ced4da;
+    text-align: justify!important;
+}
+
+.bikelist-btn {
+    border-color: #ced4da;
+    border-radius: 0;
+    color: white;
+
+}
+.bikelist-btn:hover, .bikelist-btn:active {
+    background-color: #d90429;
+    border-color: #ba181b;
+}
+
+.bikelist-img {
+    filter: brightness(90%);
+}

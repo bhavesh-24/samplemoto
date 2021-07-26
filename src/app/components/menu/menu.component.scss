@@ -1,0 +1,46 @@
+@media screen and (min-width: 768px) {
+    .times-icon {
+        width: 50px
+    }
+}
+
+.times-icon {
+   filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(249deg) brightness(107%) contrast(101%);
+}
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay-content a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: white;
+    display: block;
+    transition: 0.3s;    
+  }
+  
+  .overlay-content a:hover, .overlay-content a:focus, overlay-content a:active {
+    color: #d90429;
+  }
+  
+  .overlay-content .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {    
+    .overlay-content .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }

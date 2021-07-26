@@ -1,0 +1,7 @@
+<div class="container-fluid mb-3 app-main-div" #mainAppDiv>  
+  <div class="row justify-content-start">
+    <div id="myNav" class="overlay" #menuOverlayRef><app-menu (closeOverlay)="onCloseOverlay()"></app-menu></div>    
+    <div class="mt-2" #menuIconDiv><img class="menu-icon" src="/assets/images/svgicons/menu.svg" (click)="openNav()"></div>    
+  </div>
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,35 @@
+<h5 class="consult-main-head my-5 text-center">Book a Consultation, To Choose the right machine!</h5>
+<div class="d-flex justify-content-center consult-main-div">
+    <form [formGroup]="consultForm" class="consult-form">
+        <div class="row mb-3">
+            <label for="name" class="col-md form-label consult-label">Name</label>
+            <div class="col-md">
+                <input id="name" class="form-control consultation-input" formControlName="personName">
+            </div>            
+
+        </div>
+        <div class="row mb-3">
+            <label for="email" class="col-md form-label consult-label">Email</label>
+            <div class="col-md">
+                <input id="email" class="form-control consultation-input" formControlName="email">
+            </div>            
+
+        </div> 
+        <div class="row mb-3">
+            <label for="mobile" class="col-md form-label consult-label">Mobile</label>
+            <div class="col-md">
+                <input id="=mobile" class="form-control consultation-input" formControlName="mobile">
+            </div>            
+        </div>
+        <div class="row mb-3">
+            <label for="city" class="col-md form-label consult-label">City</label>
+            <div class="col-md">
+                <input id="city" class="form-control consultation-input" formControlName="city">
+            </div>            
+        </div>
+        <div class="mt-5">
+            <button class="btn btn-primary consult-btn">Book Consultation</button>
+        </div>  
+    </form>
+
+</div>

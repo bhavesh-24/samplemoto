@@ -1,0 +1,48 @@
+.consultation-input {
+    border-radius: 0;
+}
+.consult-main-head {
+    font-weight: 300;
+    color: #ced4da;
+}
+
+.consult-main-div {
+    font-weight: 200;
+    color: #ced4da;
+    font-size: 1rem;
+}
+.consult-label {
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.consult-form {
+    border: 1px solid #343A40;
+    padding: 5vw;
+}
+
+.consultation-input {
+    width: 25vw;
+    height: 5vh;
+    background-color: #ced4da;
+}
+
+.consult-btn {
+    border-color: #ba181b;
+    background-color: #d90429;
+    border-radius: 0;
+    color: white;
+}
+
+.consult-btn:hover, .consult-btn:active {
+    background-color: #d90429;
+    border-color: #ba181b;
+}
+
+@media screen and (max-width: 768px){
+    .consultation-input {
+        width: 80vw;
+        height: 5vh;
+        background-color: #ced4da;
+    }
+}

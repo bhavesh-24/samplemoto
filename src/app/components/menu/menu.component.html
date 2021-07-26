@@ -1,0 +1,9 @@
+<div id="myNav" class="overlay mt-2">
+    <span class="closebtn ms-3" (click)="closeNav()"><img class="times-icon" src="/assets/images/svgicons/times.svg"></span>    
+    <div class="overlay-content">
+      <a [routerLink]="['home']" (click)="closeNav()">Home</a>
+      <a [routerLink]="['popularbikes']" (click)="closeNav()">Popular Bikes</a>
+      <a [routerLink]="['bookconsultation']" (click)="closeNav()">Book Consultation</a>
+      <a [routerLink]="['support']" (click)="closeNav()">Help & Support</a>
+    </div>
+</div>
